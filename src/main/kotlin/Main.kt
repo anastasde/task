@@ -8,9 +8,9 @@ fun main() {
         for (j in 0 until chars.size - 1 - i) {
             if (chars[j] > chars[j + 1])
             {
-                val temp = chars[j]
+                val a = chars[j]
                 chars[j] = chars[j + 1]
-                chars[j + 1] = temp
+                chars[j + 1] = a
             }
         }
     }
